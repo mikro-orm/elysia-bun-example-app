@@ -11,14 +11,14 @@
     "start:dev": "bun run --watch src/server.ts"
   },
   "dependencies": {
-    "@mikro-orm/core": "^6.3.5-dev.13",
-    "@mikro-orm/sql-highlighter": "^1.0.0",
-    "@mikro-orm/libsql": "^6.3.5-dev.13",
+    "@mikro-orm/core": "^6.3.5",
+    "@mikro-orm/sql-highlighter": "^1.0.1",
+    "@mikro-orm/libsql": "^6.3.5",
     "elysia": "^1.1.5"
   },
   "devDependencies": {
-    "@mikro-orm/cli": "^6.3.5-dev.13",
-    "@types/node": "22.1.0",
+    "@mikro-orm/cli": "^6.3.5",
+    "@types/node": "22.2.0",
     "bun-types": "latest"
   }
 }
