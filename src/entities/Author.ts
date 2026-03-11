@@ -1,4 +1,5 @@
-import { Cascade, Collection, Entity, OneToMany, Property, ManyToOne, type Rel, type Opt } from '@mikro-orm/libsql';
+import { Entity, OneToMany, Property, ManyToOne } from '@mikro-orm/decorators/legacy';
+import { Cascade, Collection, type Rel, type Opt } from '@mikro-orm/libsql';
 import { BaseEntity } from './BaseEntity.js';
 import { Book } from './Book.js';
 

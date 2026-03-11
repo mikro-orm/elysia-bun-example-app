@@ -1,4 +1,5 @@
-import { type Opt, PrimaryKey, Property } from '@mikro-orm/libsql';
+import { PrimaryKey, Property } from '@mikro-orm/decorators/legacy';
+import { type Opt } from '@mikro-orm/libsql';
 
 export abstract class BaseEntity {
 

@@ -1,4 +1,5 @@
-import { Cascade, Collection, Entity, ManyToMany, ManyToOne, Property, type Rel } from '@mikro-orm/libsql';
+import { Entity, ManyToMany, ManyToOne, Property } from '@mikro-orm/decorators/legacy';
+import { Cascade, Collection, type Rel } from '@mikro-orm/libsql';
 import { BaseEntity } from './BaseEntity.js';
 import { Author } from './Author.js';
 import { Publisher } from './Publisher.js';

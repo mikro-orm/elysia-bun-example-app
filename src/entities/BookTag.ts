@@ -1,4 +1,5 @@
-import { Collection, Entity, ManyToMany, PrimaryKey, Property } from '@mikro-orm/libsql';
+import { Entity, ManyToMany, PrimaryKey, Property } from '@mikro-orm/decorators/legacy';
+import { Collection } from '@mikro-orm/libsql';
 import { Book } from './Book.js';
 
 @Entity()
