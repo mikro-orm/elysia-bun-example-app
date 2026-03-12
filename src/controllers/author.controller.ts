@@ -4,7 +4,7 @@ import { db } from '../server.js';
 export const authorRoutes = new Elysia();
 
 authorRoutes.get('/', async ({ query }) => {
-  const cursor = await db.author.findByCursor({}, {
+  const cursor = await db.author.findByCursor({
     first: query.last ?? 10,
     after: query.after,
     orderBy: { createdAt: 'desc' },
