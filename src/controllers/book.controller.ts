@@ -6,7 +6,7 @@ import { Book } from '../entities/Book.js';
 export const bookRoutes = new Elysia();
 
 bookRoutes.get('/', async ({ query }) => {
-  const cursor = await db.book.findByCursor({}, {
+  const cursor = await db.book.findByCursor({
     first: query.last ?? 10,
     after: query.after,
     orderBy: { title: 'desc' },

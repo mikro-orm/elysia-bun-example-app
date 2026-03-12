@@ -2,6 +2,11 @@ import { Entity, Enum, OneToMany, PrimaryKey, Property } from '@mikro-orm/decora
 import { Collection } from '@mikro-orm/libsql';
 import { Book } from './Book.js';
 
+export enum PublisherType {
+  LOCAL = 'local',
+  GLOBAL = 'global',
+}
+
 @Entity()
 export class Publisher {
 
@@ -22,9 +27,4 @@ export class Publisher {
     this.type = type;
   }
 
-}
-
-export enum PublisherType {
-  LOCAL = 'local',
-  GLOBAL = 'global',
 }
