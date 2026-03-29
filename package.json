@@ -12,15 +12,15 @@
     "test": "bun test"
   },
   "dependencies": {
-    "@mikro-orm/core": "^7.0.1",
-    "@mikro-orm/decorators": "^7.0.1",
-    "@mikro-orm/libsql": "^7.0.1",
+    "@mikro-orm/core": "^7.0.6",
+    "@mikro-orm/decorators": "^7.0.6",
+    "@mikro-orm/libsql": "^7.0.6",
     "@mikro-orm/sql-highlighter": "^1.0.1",
     "elysia": "^1.1.5",
     "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
-    "@mikro-orm/cli": "^7.0.1",
+    "@mikro-orm/cli": "^7.0.6",
     "@types/node": "22.2.0",
     "bun-types": "latest"
   }
