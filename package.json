@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@mikro-orm/cli": "^7.0.6",
-    "@types/node": "22.2.0",
+    "@types/node": "26.6.5",
     "bun-types": "latest"
   }
 }
